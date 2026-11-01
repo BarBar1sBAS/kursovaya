@@ -1,0 +1,198 @@
+{
+  "capturedAt": "2026-11-01T19:38:49.328Z",
+  "source": "Снимок собственной демонстрационной базы 1С, только чтение",
+  "platform": "8.3.27.1606",
+  "records": {
+    "products": [
+      {
+        "id": "f46b3eb2-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "name": "Кабель USB",
+        "sku": "USB-01",
+        "unit": "шт.",
+        "version": "/rH1tHq2LAtHqRCJpJ6Y6P6LqMtmglMjzhSOeyKUaBU="
+      }
+    ],
+    "clients": [
+      {
+        "id": "f46b422c-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "name": "Учебный клиент",
+        "phone": "",
+        "email": "",
+        "comment": "",
+        "version": "CUcKBmLl+BuV8PLFQIU/p04kz83qfVksM9W0A/algUs="
+      }
+    ],
+    "warehouses": [
+      {
+        "id": "f46b422d-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "name": "Склад А",
+        "description": "",
+        "version": "Pv0zdTLB9WB0cQjPUg7u5boKMTqIg0MEya0+H3Vns8Q="
+      },
+      {
+        "id": "f46b4236-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "name": "Склад Б",
+        "description": "",
+        "version": "25Li9bm9GX423BnRVqifnQ49u9rAeiqWU6Qx5w22k4Y="
+      }
+    ],
+    "orders": [
+      {
+        "id": "f46b4238-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "number": "000000000001",
+        "date": "2026-11-01T17:16:19",
+        "posted": true,
+        "comment": "",
+        "clientId": "f46b422c-d617-11f1-8467-5eb877196938",
+        "rows": [
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b422d-d617-11f1-8467-5eb877196938",
+            "quantity": "6.000",
+            "price": "100.00",
+            "amount": "600.00"
+          },
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b4236-d617-11f1-8467-5eb877196938",
+            "quantity": "5.000",
+            "price": "100.00",
+            "amount": "500.00"
+          }
+        ],
+        "total": "1100.00",
+        "version": "xwM1u8ZunmFXNcembG502PdntAOM0qyAZcrWqKG+Rn4=",
+        "clientName": "Учебный клиент",
+        "state": "Отгружен"
+      }
+    ],
+    "receipts": [
+      {
+        "id": "f46b4237-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "number": "000000000001",
+        "date": "2026-11-01T17:16:19",
+        "posted": true,
+        "comment": "",
+        "rows": [
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b422d-d617-11f1-8467-5eb877196938",
+            "quantity": "10.000"
+          },
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b4236-d617-11f1-8467-5eb877196938",
+            "quantity": "8.000"
+          }
+        ],
+        "version": "hFm4WdwE1dmeWK3B1yrgtmIprV5Mu9cUc4SoWgPNB/c="
+      }
+    ],
+    "shipments": [
+      {
+        "id": "f46b4239-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "number": "000000000001",
+        "date": "2026-11-01T17:16:19",
+        "posted": true,
+        "comment": "",
+        "orderId": "f46b4238-d617-11f1-8467-5eb877196938",
+        "rows": [
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b422d-d617-11f1-8467-5eb877196938",
+            "quantity": "2.000"
+          },
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b4236-d617-11f1-8467-5eb877196938",
+            "quantity": "3.000"
+          }
+        ],
+        "version": "cQ4KEH+AmX6Vf7kH8AOvfCTIElCMuNihj/mQMLUKZQU=",
+        "orderName": "ЗаказКлиента 000000000001 от 01.11.2026 20:16:19"
+      },
+      {
+        "id": "f46b423a-d617-11f1-8467-5eb877196938",
+        "deleted": false,
+        "number": "000000000002",
+        "date": "2026-11-01T17:16:19",
+        "posted": true,
+        "comment": "",
+        "orderId": "f46b4238-d617-11f1-8467-5eb877196938",
+        "rows": [
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b422d-d617-11f1-8467-5eb877196938",
+            "quantity": "4.000"
+          },
+          {
+            "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+            "warehouseId": "f46b4236-d617-11f1-8467-5eb877196938",
+            "quantity": "2.000"
+          }
+        ],
+        "version": "VH9VHbaNfDVw8HvPYv6e3exTVcv8PUfuaZ6eq2kyPCU=",
+        "orderName": "ЗаказКлиента 000000000001 от 01.11.2026 20:16:19"
+      }
+    ]
+  },
+  "stock": [
+    {
+      "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+      "productName": "Кабель USB",
+      "unit": "шт.",
+      "warehouseId": "f46b4236-d617-11f1-8467-5eb877196938",
+      "warehouseName": "Склад Б",
+      "physical": "3.000",
+      "reserved": "0",
+      "available": "3.000"
+    },
+    {
+      "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+      "productName": "Кабель USB",
+      "unit": "шт.",
+      "warehouseId": "f46b422d-d617-11f1-8467-5eb877196938",
+      "warehouseName": "Склад А",
+      "physical": "4.000",
+      "reserved": "0",
+      "available": "4.000"
+    }
+  ],
+  "fulfillment": [
+    {
+      "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+      "productName": "Кабель USB",
+      "warehouseId": "f46b422d-d617-11f1-8467-5eb877196938",
+      "warehouseName": "Склад А",
+      "ordered": "6.000",
+      "shipped": "6.000",
+      "remaining": "0",
+      "orderId": "f46b4238-d617-11f1-8467-5eb877196938",
+      "orderName": "ЗаказКлиента 000000000001 от 01.11.2026 20:16:19",
+      "clientId": "f46b422c-d617-11f1-8467-5eb877196938",
+      "clientName": "Учебный клиент",
+      "state": "Отгружен"
+    },
+    {
+      "productId": "f46b3eb2-d617-11f1-8467-5eb877196938",
+      "productName": "Кабель USB",
+      "warehouseId": "f46b4236-d617-11f1-8467-5eb877196938",
+      "warehouseName": "Склад Б",
+      "ordered": "5.000",
+      "shipped": "5.000",
+      "remaining": "0",
+      "orderId": "f46b4238-d617-11f1-8467-5eb877196938",
+      "orderName": "ЗаказКлиента 000000000001 от 01.11.2026 20:16:19",
+      "clientId": "f46b422c-d617-11f1-8467-5eb877196938",
+      "clientName": "Учебный клиент",
+      "state": "Отгружен"
+    }
+  ]
+}
